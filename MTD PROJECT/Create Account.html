@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <style>
+		form{
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  width:600px;
+	height: 400px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	   padding: 100px 28px;
+	   color:#fff;
+}
+
+</style>
+</head>
+
+<body>
+	<nav>
+		<div class="main">
+			<div class="logo">
+				<a href="index.html">
+				<img src="download.jpg" >
+				</a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li ><a href="index.html">Home</a></li>
+					<li ><a href="menutable.html"> Menu</a></li>
+                    <li><a href="menu.html">Our Specials</a></li>
+					<li><a href="about1.html">About Us</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="location.html">Location</a></li>
+					<li><a href="Contact Us.html">Contact Us</a></li>
+					<li class="active"><a href="">Create An Account </a></li>
+				</ul>
+			</div>
+		</div>
+		</nav>
+      <div>
+    <form action="FORM_reply.html" method="get" style="width:600px;margin:auto">
+		<h2>Create a Free Account </h2>
+		<br>
+    	 <h3> 1)Personal information: </h3>
+     <h3>Select a gender : </h3>
+			<input type="radio" name="Gender" value="M" checked id="Male">
+			<label for="Male">Male</label>
+			<input type="radio" name="Gender" value="F" id="Female">
+			<label for="Female">Female</label><br>
+			 First name: 
+			<input type="text" name="First name" maxlength="50" required size="20">*
+		  &nbsp;
+			Last name:
+			<input type="text" name="Lastname" maxlength="50" required size="20">*
+			<br>
+			City/Town:                    
+			<input type="text" name="city" maxlength="50" required size="21">*
+			&nbsp;
+			Country:
+			<select name="country" required>
+				<option value="" selected>Select one</option>
+				<option value="1">Canada</option>
+				<option value="2">United States</option>
+				<option value="3">India</option>
+			</select>
+			<br>
+            
+			Date of Birth:
+            <input type="date" id="dob" name="Date of Birth">
+            &nbsp;
+            &nbsp;
+            &nbsp;
+           Age:
+            <input type="range" name="weight" id="range_weight" value="5" min="1" max="100" oninput="range_weight_disp.value = range_weight.value">
+   <output  id="range_weight_disp"></output>
+   <br>
+   Company: <input type= "Text" name = "Company required">
+
+   <h3>2)Account Information:</h3>
+ 
+ User name*: <input type= "text" name = "Username" required>
+<br>
+
+ E-mail*: <input type= "email" name = "email" required>
+ <br>
+ 
+ Password*: <input type= "password" name = "password" required>
+ <br>
+Confirm Password*: <input type= "password" name = "ConfirmPassword" required>
+<br>
+<hr>
+
+    	<h3>3)A few words about yourself</h3>
+  
+
+<textarea name ="message" rows = "5" cols ="80"> </textarea>
+<br>
+<hr>
+ 
+    	 <h3>4)Terms & conditions</h3>
+
+<br>
+ <input type="checkbox">By clicking this button, you agree to our Terms of use And Privacy Policy
+   <br>
+   <input type="submit" value ="Create account" style="background-color:Lightblue">
+    <br>
+   
+   
+
+
+            
+
+		<!--The language checkbox fields------------------------->
+		
+	
+		
+
+		<!--The login info fields-------------------------------->
+		
+			
+		<!--Submit button-->
+		
+
+	</form>
+</div>
+	
+	
+
+
+</body>
+
+</html>
